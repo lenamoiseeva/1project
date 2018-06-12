@@ -4,13 +4,13 @@ import java.util.Scanner;
 public class base {
     //just a simple calcularor
     public static void main(String[] args) {
-        Scanner Calculator = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         double fn, sn, result;
 
         System.out.println("Enter the first number: ");
-        fn = Calculator.nextDouble();
+        fn = scanner.nextDouble();
         System.out.println("Enter the second number: ");
-        sn = Calculator.nextDouble();
+        sn = scanner.nextDouble();
 
         result = fn + sn;
 
