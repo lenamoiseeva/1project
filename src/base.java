@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**@author Lena Moiseeva
- * @return  the sum of numbers*/
+*/
 public class base {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
