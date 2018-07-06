@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * @author Lena Moiseeva
- * 1 - calcularor
+ * 1 - calculator
  * 2 - search for the longest word in the array
  */
 public class base {
