@@ -1,40 +1,39 @@
 import java.util.Scanner;
 /**
  * @author Lena Moiseeva
- * calcularor
- * search for the longest word in the array
+ * 1 - calcularor
+ * 2 - search for the longest word in the array
  */
-public class base {
+public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Select action: 1 - Calculator , 2 - Find max word in the array");
-        int choice = scanner.nextInt();
-        //выбор: 1 - Калькулятор, 2 - Поиск максимального слова в массиве.
-        if (choice == 1) {
+        System.out.println("Select action: 1 - Calculator , 2 - Search for the longest word in the array");
+        int choice1 = scanner.nextInt();
+        if (choice1 == 1) {
             double fn, sn, result;
             System.out.println("Enter the first number: ");
             fn = scanner.nextDouble();
             System.out.println("Enter the second number: ");
             sn = scanner.nextDouble();
-            System.out.println("Enter one of the options (*, /, +, -): ");
-            String operation = scanner.next();
-            switch (operation) {
-                case "*": {
+            System.out.println("Select one of options: 1 - Addition(+), 2 - Subtraction(-), 3 - Multiplication(*), 4 - Division(/)");
+            int choice2 = scanner.nextInt();
+            switch (choice2) {
+                case 1: {
                     result = fn * sn;
                     System.out.printf("Result = %.4f", result);
                     break;
                 }
-                case "/": {
+                case 2: {
                     result = fn / sn;
                     System.out.printf("Result = %.4f", result);
                     break;
                 }
-                case "+": {
+                case 3: {
                     result = fn + sn;
                     System.out.printf("Result = %.4f", result);
                     break;
                 }
-                case "-": {
+                case 4: {
                     result = fn - sn;
                     System.out.printf("Result = %.4f", result);
                     break;
@@ -43,7 +42,7 @@ public class base {
                     System.out.println("Invalid value");
             }
         }
-        else if (choice == 2) {
+        else if (choice1 == 2) {
             Scanner scanner1 = new Scanner(System.in);
             System.out.println("Enter the dimension of the array:");
             int a = scanner1.nextInt();
