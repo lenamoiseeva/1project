@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 1 - calcularor
  * 2 - search for the longest word in the array
  */
-public class Calculator {
+public class base {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Select action: 1 - Calculator , 2 - Search for the longest word in the array");
