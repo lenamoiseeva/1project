@@ -19,22 +19,22 @@ public class base {
             int choice2 = scanner.nextInt();
             switch (choice2) {
                 case 1: {
-                    result = fn * sn;
-                    System.out.printf("Result = %.4f", result);
-                    break;
-                }
-                case 2: {
-                    result = fn / sn;
-                    System.out.printf("Result = %.4f", result);
-                    break;
-                }
-                case 3: {
                     result = fn + sn;
                     System.out.printf("Result = %.4f", result);
                     break;
                 }
-                case 4: {
+                case 2: {
                     result = fn - sn;
+                    System.out.printf("Result = %.4f", result);
+                    break;
+                }
+                case 3: {
+                    result = fn * sn;
+                    System.out.printf("Result = %.4f", result);
+                    break;
+                }
+                case 4: {
+                    result = fn / sn;
                     System.out.printf("Result = %.4f", result);
                     break;
                 }
